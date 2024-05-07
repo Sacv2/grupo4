@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #c4e9c1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header img {
+    width: 80px;
+}
+
+header, nav, main, footer {
+    padding: 25px;
+}
+
+.button {
+    background-color: #eb9868;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-top-right-radius: 15px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    border-top-right-radius: 2px;
+    transition: 0.2s all;
+}
+
+header {
+    background-color: #79d8b0;
+}
+
+nav {
+    background-color: #f1cd57;
+    position:sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    padding: 0;
+}
+
+main h2 {
+    background-color: #79d8b0;
+}
+
+main h3 {
+    background-color: #eb9868;
+}
+
+#Productos h2, #Contacatanos h2 {
+    padding: 15px  25px;
+}
+
+#Productos h3 {
+    padding: 10px  25px;
+}
+
+#Ofertas .contenido  {
+    background-color:#f1cd57;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+}
+
+
+#Ofertas .contenido article {
+    background-color:#f1cd57;
+    display: flex;    
+    flex-direction: column;
+    font-display: center;
+    text-align: center;
+}
+
+
+#Ofertas .contenido article h4 {
+    color: red;
+    font-size: 1em;
+    justify-content: center;
+    text-align: center;
+}
+
+    #Ofertas .contenido article p {
+        color: blue;
+        font-size: 1em;
+        text-align: center;  
+}
+
+   #Categorias .contenido {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 25px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+   
+   #Categorias .contenido article {
+    width: 100px;
+    background-color: #eb9868;
+    text-align: center;
+}
+
+#Contacto form {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    width: 500px;
+    margin: 25px auto;
+    background-color: #f1cd57;
+    padding: 25px;
+}
+
+#Contacto form label {
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #f1c430;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+   
+footer .redes {
+    font-size: 2em;
+}
+
+footer .redes i {
+    color: black;
+    transition: 0.2s all;
+}
+
+footer .redes i:hover {
+    color: #fa0000;
+}
