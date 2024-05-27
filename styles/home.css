@@ -14,6 +14,7 @@ body {
 
 header {
     display: flex;
+    background-color:#79d8b0;
     justify-content: space-between;
     align-items: center;
     font-size: larger;
@@ -21,7 +22,7 @@ header {
 }
 
 header img {
-    width: 80px;
+    width: 90px;
 }
 
 header, nav, main, footer {
@@ -47,10 +48,6 @@ header, nav, main, footer {
     transition: 0.2s all;
 }
 
-header {
-    background-color: #79d8b0;
-}
-
 nav {
     background-color: #f1cd57;
     position:sticky;
@@ -64,10 +61,6 @@ nav ul {
 
 a {
     text-decoration: none;
-}
-
-main {
-    padding: 0;
 }
 
 main h2 {
@@ -101,6 +94,7 @@ main h3 {
     flex-direction: column;
     font-display: center;
     text-align: center;
+    align-items: center;
 }
 
 
@@ -133,7 +127,7 @@ main h3 {
     text-align: center;
 }
 
-#Contacto form {
+#Contactanos form {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-column-gap: 15px;
@@ -144,7 +138,7 @@ main h3 {
     padding: 25px;
 }
 
-#Contacto form label {
+#Contactanos form label {
     font-weight: bold;
 }
 
@@ -170,4 +164,43 @@ footer .redes i {
 
 footer .redes i:hover {
     color: #fa0000;
+}
+
+@media only screen and (max-width: 600px){
+    .pictures {
+        width: 60%;
+    }
+    header img {
+        width: 60px;
+    }
+    header, nav, main, footer {
+        padding: 10px;
+        font-size: small;    
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .pictures {
+        width: 80%;
+    }
+    header img {
+        width: 80px;
+    }
+    header, nav, main, footer {
+        padding: 15px;
+        font-size: medium;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .pictures {
+        width: 100%;
+    }
+    header img {
+        width: 90px;
+    }
+    header, nav, main, footer {
+        padding: 25px;
+        font-size: larger;
+    }
 }
