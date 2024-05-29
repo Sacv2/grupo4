@@ -18,7 +18,6 @@ header {
     justify-content: space-between;
     align-items: center;
     font-size: larger;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header img {
@@ -36,9 +35,7 @@ header, nav, main, footer {
     border-radius: 5px;
     border-top-right-radius: 15px;
     color: black;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-
 }
 
 .button:hover {
@@ -63,23 +60,17 @@ a {
     text-decoration: none;
 }
 
-main h2 {
-    background-color: #79d8b0;
-}
-
-main h3 {
+h3 {
     background-color: #eb9868;
-}
-
-#Productos h2, #Contacatanos h2 {
-    padding: 15px  25px;
-}
-
-#Productos h3 {
     padding: 10px  25px;
 }
 
-#Ofertas .contenido  {
+h2 {
+    padding: 15px  25px;
+    background-color: #79d8b0;
+}
+
+.contenido  {
     background-color:#f1cd57;
     display:flex;
     justify-content: space-evenly;
@@ -88,7 +79,7 @@ main h3 {
 }
 
 
-#Ofertas .contenido article {
+.contenido article {
     background-color:#f1cd57;
     display: flex;    
     flex-direction: column;
@@ -98,17 +89,17 @@ main h3 {
 }
 
 
-#Ofertas .contenido article h4 {
+h4 {
     color: red;
     font-size: 1em;
     justify-content: center;
     text-align: center;
 }
 
-    #Ofertas .contenido article p {
-        color: blue;
-        font-size: 1em;
-        text-align: center;  
+#Ofertas .contenido article p {
+    color: blue;
+    font-size: 1em;
+    text-align: center;  
 }
 
    #Categorias .contenido {
@@ -120,7 +111,6 @@ main h3 {
     margin: 0 auto;
 }
 
-   
    #Categorias .contenido article {
     width: 100px;
     background-color: #eb9868;
@@ -142,6 +132,22 @@ main h3 {
     font-weight: bold;
 }
 
+.Masvendidos{
+    align-items: stretch;
+    justify-content: space-around;
+    display: flex;
+    background-color: #f1cd57;
+    text-align: center
+}
+
+.Masvendidos article {
+    padding: 20px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    align-items: stretch ;
+    justify-content: space-around;
+}
 
 footer {
     background-color: #f1c430;
@@ -149,7 +155,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
    
