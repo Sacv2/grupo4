@@ -111,7 +111,7 @@ h4 {
     margin: 0 auto;
 }
 
-   #Categorias .contenido article {
+   #Categorias .contenido div {
     width: 100px;
     background-color: #eb9868;
     text-align: center;
