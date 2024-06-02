@@ -5,6 +5,7 @@
     "idioma": "Español",
     "formato": "Digital",
     "imagen": "/img/FC24",
+    "precio": "$44.990",
     "descripcion": "EA Sports FC 24 es el sucesor de FIFA 23, un videojuego de fútbol que se abre paso a una nueva de pura innovación bajo el lema The World's Game."
 }
 {
@@ -14,6 +15,7 @@
     "idioma": "Español",
     "formato": "Digital",
     "imagen": "/img/GOWR",
+    "precio": "$60.000",
     "descripcion": "Únete a Kratos y Atreus en un viaje mítico en busca de respuestas antes de que llegue Ragnarök. Juntos, padre e hijo deben arriesgarlo todo en su viaje a cada uno de los Nueve Reinos."
 }
 {
@@ -23,6 +25,7 @@
     "idioma": "Español",
     "formato": "Digital",
     "imagen": "/img/HL",
+    "precio": "$55.000",
     "descripcion": "Hogwarts Legacy es un juego de rol de acción de mundo abierto ambientado en el mundo presentado por primera vez en los libros de Harry Potter."
 }
 {
@@ -32,6 +35,7 @@
     "idioma": "Español",
     "formato": "Digital",
     "imagen": "/img/RE4",
+    "precio": "$70.300",
     "descripcion": "Han pasado seis años desde el desastre biológico en Raccoon City. El agente Leon S. Kennedy, uno de los supervivientes del incidente, ha sido enviado a rescatar a la hija secuestrada del presidente. Él la sigue hasta un pueblo europeo aislado, donde algo terrible está mal con los lugareños. Y se levanta el telón de esta historia de rescate audaz y horror extenuante donde se cruzan la vida y la muerte, el terror y la catarsis."
 }
 {
@@ -41,6 +45,7 @@
     "idioma": "Español",
     "formato": "Digital",
     "imagen": "/img/ER",
+    "precio": "$30.200",
     "descripcion": "Un vasto mundo donde los campos abiertos con una variedad de situaciones y enormes mazmorras con diseños complejos y tridimensionales están perfectamente conectados. Mientras exploras, te espera la alegría de descubrir amenazas desconocidas y abrumadoras, lo que te lleva a una gran sensación de logro."
 }
 {
@@ -50,6 +55,7 @@
     "idioma": "Español",
     "formato": "Digital",
     "imagen": "/img/TEKKEN8",
+    "precio": "$18.000",
     "descripcion": "Tekken 8 es un videojuego de lucha de Bandai Namco que busca llevarte al límite. A nivel narrativo, la historia se centrará en el enfrentamiento padre e hijo entre Kazuya Mishima y Jin Kazama."
 }
 {
@@ -59,6 +65,7 @@
     "idioma": "Español",
     "formato": "Digital",
     "imagen": "/img/CODMW",
+    "precio": "$55.000",
     "descripcion": "Call of Duty Modern Warfare II sumerge a los jugadores en un conflicto global sin precedentes que presenta el regreso de los icónicos Operadores de Task Force 141."
 }
 {
@@ -68,6 +75,7 @@
     "idioma": "Español",
     "formato": "Digital",
     "imagen": "/img/ONTHEROAD",
+    "precio": "$12.000",
     "descripcion": "En esta simulación realista de camiones, tiene a su disposición más de 6500 km de autopistas y carreteras rurales, incluidos numerosos cruces de autopistas detallados. "
 }
 {
@@ -77,6 +85,7 @@
     "idioma": "Español",
     "formato": "Digital",
     "imagen": "/img/GTAV",
+    "precio": "$27.900",
     "descripcion": "En este contexto tan crítico y sarcástico de la sociedad actual, tres criminales muy diferentes barajan sus probabilidades de éxito: Franklin, un estafador callejero en busca de mucho dinero; Michael, profesional ex convicto con un retiro muy diferente al que imaginaba; y por último Trevor, un maníaco violento cuya motivación pasa por encontrar drogas baratas que meterse y propinar nuevos atracos. Los tres unidos crean una banda en la que se lo jugarán al todo o nada para lograr el gran golpe de sus vidas: hacerse ricos."
 }
 {
@@ -86,5 +95,6 @@
     "idioma": "Subtitulado",
     "formato": "Digital",
     "imagen": "/img/STRAY",
+    "precio": "$15.500",
     "descripcion": "Stray es un videojuego de acción y aventuras en tercera persona protagonizado por un gato ambientado en los callejones iluminados por el neón de una ciberciudad decadente y sus turbios rincones. "
 }
