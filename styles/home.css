@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -9,27 +9,38 @@ html {
 }
 
 body {
-    background-color: #c4e9c1;
-}
-
-header {
-    display: flex;
-    background-color:#79d8b0;
-    justify-content: space-between;
-    align-items: center;
-    font-size: larger;
-}
-
-header img {
-    width: 90px;
+    background-color: #817575c5;
 }
 
 header, nav, main, footer {
     padding: 25px;
 }
 
+header {
+    display: flex;
+    background-color:#e8670b;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 90px;
+}
+
+nav {
+    background-color: #454440;
+    position:sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
 .button {
-    background-color: #eb9868;
+    background-color: #ffffff;
     padding: 10px;
     margin-right: 10px;
     border-radius: 5px;
@@ -45,55 +56,55 @@ header, nav, main, footer {
     transition: 0.2s all;
 }
 
-nav {
-    background-color: #f1cd57;
-    position:sticky;
-    top: 0;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-}
-
 a {
     text-decoration: none;
 }
 
+h2 {
+    padding: 15px  25px;
+    background-color: #454440;
+    color: white;
+}
+
 h3 {
-    background-color: #eb9868;
+    color: white;
     padding: 10px  25px;
 }
 
-h2 {
-    padding: 15px  25px;
-    background-color: #79d8b0;
+h4 {
+    color: white;
+    font-size: 1em;
+    justify-content: center;
+    text-align: center;
 }
 
 .contenido  {
-    background-color:#f1cd57;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 15px;
 }
 
+article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-display: center;
+}
 
-.contenido article {
-    background-color:#f1cd57;
+.fotos {
+    
+    width: 20%;
+    height: min-content;
+}
+
+.contenido article {    
     display: flex;    
     flex-direction: column;
     font-display: center;
     text-align: center;
     align-items: center;
-}
-
-
-h4 {
-    color: red;
-    font-size: 1em;
-    justify-content: center;
-    text-align: center;
 }
 
 #Ofertas .contenido article p {
@@ -102,7 +113,7 @@ h4 {
     text-align: center;  
 }
 
-   #Categorias .contenido {
+#Categorias .contenido {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -111,9 +122,8 @@ h4 {
     margin: 0 auto;
 }
 
-   #Categorias .contenido div {
+#Categorias .contenido div {
     width: 100px;
-    background-color: #eb9868;
     text-align: center;
 }
 
@@ -136,7 +146,6 @@ h4 {
     align-items: stretch;
     justify-content: space-around;
     display: flex;
-    background-color: #f1cd57;
     text-align: center
 }
 
@@ -150,7 +159,7 @@ h4 {
 }
 
 footer {
-    background-color: #f1c430;
+    background-color:#e8670b;
     padding: 10px;
     display: flex;
     justify-content: space-between;
