@@ -78,8 +78,8 @@ h3 {
     width: 21rem;
     height: 27rem;
     background-color: rgba(185, 88, 18, 0.523);
-    padding: 15px;
-    margin: 10px;
+    padding: 10px;
+    margin: 15px;
     justify-content:center;
     float:left;
     text-align: center;
@@ -95,11 +95,11 @@ h3 {
 }
 
 .Ofertas article {
-    width: 34rem;
-    height: 41rem;
+    width: 21rem;
+    height: 27rem;
     background-color: rgba(185, 88, 18, 0.523);
     padding: 10px;
-    margin: 10px;
+    margin: 15px;
     float: left;
     align-items: center;
     justify-content: center;
@@ -107,7 +107,7 @@ h3 {
 }
 
 .fotos2 {
-    width:34rem;
+    width:21rem;
 }
 
 #Contactanos form {
