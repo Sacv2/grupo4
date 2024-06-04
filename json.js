@@ -1,20 +1,29 @@
 let FC24 = document.querySelector("#FC24");
 
+let contenido = document.querySelector("#contenido");
+
 let referencia = FC24.cloneNode(true);
 
-/*
+FC24.remove()
+
 fetch("https://Sacv2.github.io/grupo4/datagames.json")
 .then(response => response.json())
 .then(data => {
     // Procesamiento de la info que llega de la API
     console.log(data);
+    
+    //Agrego todos los juegos con un for
+    for (i = 0; i < data.length; i++) {
 
-    console.log(data[0].nombre + " " + data[0].precio);
+        let NuevoJuego = referencia.cloneNode(true)
 
-    FC24.querySelector("img").src = data[0].imagen;
-    FC24.querySelector("img").alt = "FC24";
-    FC24.querySelector("h3").innerHTML = data[0].nombre;
-    FC24.querySelector("p").innerHTML = data[0].precio;
+        NuevoJuego.querySelector("img").src = data[i].imagen;
+        NuevoJuego.querySelector("img").alt = data[i].nombre;
+        NuevoJuego.querySelector("h3").innerHTML = data[i].nombre;
+        NuevoJuego.querySelector("p").innerHTML = data[i].precio
+
+        contenido.appendChild(NuevoJuego);
+    }
 
     })
 .catch(error => console.log("Ocurrió un error! " + error));

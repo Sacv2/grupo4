@@ -75,18 +75,17 @@ h3 {
 }
 
 #contenido article {
-    width: 21rem;
-    height: 27rem;
-    background-color: rgba(185, 88, 18, 0.523);
+    width: 15rem;
+    height: 15rem;
+    background-color: aqua;
     padding: 15px;
     margin: 10px;
     justify-content:center;
-    float:left;
-    text-align: center;
+    float: left;
 }
 
 .fotos {
-    width:21rem;
+    width:12rem;
 }
 
 .Ofertas {
@@ -95,9 +94,9 @@ h3 {
 }
 
 .Ofertas article {
-    width: 34rem;
-    height: 41rem;
-    background-color: rgba(185, 88, 18, 0.523);
+    width: 15rem;
+    height: 15rem;
+    background-color: aqua;
     padding: 10px;
     margin: 10px;
     float: left;
@@ -107,7 +106,7 @@ h3 {
 }
 
 .fotos2 {
-    width:34rem;
+    width:60%;
 }
 
 #Contactanos form {
@@ -159,7 +158,7 @@ footer .redes i:hover {
     .button {
         padding: 2px;
         margin: 1px;
-        font-size: smaller;
+        font-size:small;
     }
     
     .pictures {
